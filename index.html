@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 <head>
 	<title>백그라운드 이미지로 넣기</title>
@@ -8,6 +7,14 @@
 		.wrap{width:1000px; margin:auto;}
 		header{height:300px;  background:yellow; background: url(IMG_2415.jpg); background-size:200px 700px}
 		h1{text-align:center; padding-top:200px; color:black;}
+		.img_box img{display:box; float:left;}
+		.half{width: 50%}
+		.back_img1{background: url(16523721-high_res-doctor-who-series-11-0f5ffde.jpg); background-size:cover;}
+		.back_img2{background: url(DiiqP56UwAEc-D5.jpg); background-size:cover;}
+		.back_img3{background: url(DyDFjY6UcAEysBp.jpg); background-size:cover;}
+		.back_img4{background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT78zbS0mr5i5L_dkxY4NFWSMB7T76ST49-RsEioVP_NWIUPg_YPA); background-size:cover;}
+		.back_img5{background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhPSLv3MngS_X4jr4V6dSLmmeItjiiZf3Hh2pLhX6gyozwMsY2); background-size:cover;}
+		.inner{flat:left; height:500px;}
 	</style>
 </head>
 <body>
@@ -19,6 +26,15 @@
 			<h2>Everyone doesn't know what comes after their action.</h2>
 			<p>People aren't predict effect and influnce that they 어쩌구저쩌구</p>
 			<p>백그라운드사이즈:퍼센티지와 auto사용가능 cover;/알아서 백그라운드에 이미지 맞춰줍니다</p>
+			<div class="img_box">
+				<div class="half inner back_img1"></div>
+				<div class="half inner back_img2"></div>
+				<div class="half inner back_img3"></div>
+				<div class="half inner back_img4"></div>
+				<div class="half inner back_img5"></div>
+		</section>
+		<section>
+			<p>half태그 써도 되고 아니면 inner내부에 동일하게 width:50퍼 추가</p>
 		</section>
 </body>
 </html>
